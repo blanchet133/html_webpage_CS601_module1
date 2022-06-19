@@ -17,3 +17,38 @@ h1 {
 h2 {
   font-family: "Audiowide", sans-serif;
 }
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200;
+  background-color: #555;   
+  color: white;
+  border: 1px solid #555;
+  height: 100%;
+  position: fixed;
+  /* overflow: auto; */
+}
+
+li.nav {
+  display: inline;
+}
+
+ul.nav a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+ul.nav a:hover:not(.active) {
+  background-color:#f7f7f7;
+  color: #555;
+}
+
+ul.nav a.active {
+  background-color: #7da2a9;
+  color: white;
+}
