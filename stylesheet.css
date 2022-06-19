@@ -1,10 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide&effect=fire");
+
 body {
-  background-color:lightsalmon;
+  background-color: #f7f7f7;
+  font-family: Garamond, Serif;
+  font-size: 1.5em;
 }
 
 h1 {
-  background-color: aquamarine;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #7da2a9;
+  font-family: 'Abril Fatface', sans-serif;
+  font-weight: normal;
   margin-left: 20px;
-  color: lightsalmon;
+  color: #f7f7f7;
+}
+
+h2 {
+  font-family: "Audiowide", sans-serif;
 }
