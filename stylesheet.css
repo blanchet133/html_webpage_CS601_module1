@@ -4,13 +4,16 @@ body {
   background-color: #f7f7f7;
   font-family: Garamond, Serif;
   font-size: 1.5em;
+  margin: auto;
 }
 
 h1 {
   background-color: #7da2a9;
   font-family: 'Abril Fatface', sans-serif;
   font-weight: normal;
-  margin-left: 20px;
+  margin-left: 5px;
+  margin-right: 20px;
+  margin-top: 20px;
   color: #f7f7f7;
 }
 
@@ -20,10 +23,63 @@ h2 {
 
 ul.nav {
   list-style-type: none;
-  margin: 0;
+  background-color: #555;
+  margin:0;
   padding: 0;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 10%;
+  height: 100%
+
 }
 
-li {
-  display: inline;
+ul.nav li a {
+  /* float: left; */
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid #7da2a9;
+}
+
+ul.nav li:last-child a {
+  /* float: center; */
+  border-right: none;
+  margin-right: 20px;
+}
+
+ul.nav li a:hover {
+  color: #555;
+  background-color: #f7f7f7;
+}
+
+ul.nav li a.active {
+  background-color: #7da2a9;
+}
+
+div.content {
+  margin-left: 10%;
+  padding: 1px 16px
+}
+
+@media screen and (max-width: 900px) {
+  ul.nav {
+    width: 100%;
+    height: auto;
+    position: sticky;
+  }
+  
+  ul.nav li a {
+    float: left;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.nav li a {
+    text-align: center;
+    float: none;
+  }
 }
