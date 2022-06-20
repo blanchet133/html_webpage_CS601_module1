@@ -83,3 +83,25 @@ div.content {
     float: none;
   }
 }
+
+#work_history {
+  border-collapse: collapse;
+  text-align: left;
+  overflow: auto;
+
+}
+
+#work_history th, #work_history td {
+  padding: 8px;
+  border: 1px solid #555;
+  font-size: 0.8em;
+}
+
+#work_history th {
+  background-color: #7da2a9;
+  color: white;
+}
+
+#work_history tr:nth-child(even){background-color:#7da2a928;}
+
+#work_history tr:hover {background-color: #ddd;}
