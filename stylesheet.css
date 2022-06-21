@@ -105,3 +105,16 @@ div.content {
 #work_history tr:nth-child(even){background-color:#7da2a928;}
 
 #work_history tr:hover {background-color: #ddd;}
+
+video {
+  position: relative;
+  width: max-content;
+  border-style: groove;
+  border-radius: 5px;
+}
+
+img {
+  border-style: groove;
+  border-radius: 5px;
+}
+
