@@ -22,7 +22,7 @@ h2 {
 }
 
 ul.nav {
-  list-style-type: none;
+  list-style: none;
   background-color: #555;
   margin:0;
   padding: 0;
@@ -31,8 +31,13 @@ ul.nav {
   top: 0;
   width: 10%;
   height: 100%
-
 }
+
+ul.dropdown {
+  list-style: none;
+  visibility: hidden;
+}
+
 
 ul.nav li a {
   /* float: left; */
@@ -46,7 +51,7 @@ ul.nav li a {
 ul.nav li:last-child a {
   /* float: center; */
   border-right: none;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 
 ul.nav li a:hover {
@@ -116,5 +121,18 @@ video {
 img {
   border-style: groove;
   border-radius: 5px;
+}
+
+.formErrorMessage {
+  color:red;
+}
+
+input {
+  border-radius: 5px;
+}
+
+textarea {
+  height: 75px;
+  width: 350px;
 }
 

@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="./main.js"></script>
   </head>
 
 <body>
+  <!-- not very maintainable. Can move to JS in the future? -->
   <ul class= "nav">
     <li class= "nav"> <a title= "click here to return to the homepage" href="index.html"> Home</a></li>
     <li class= "nav"> <a class= "active" title= "click here to learn about my work" href="work.html"> Work</a></li>
     <li class= "nav"> <a title= "click here to learn about my personal life" href="personal.html"> Personal Life</a></li>
-    <li class= "nav"> <a title= "click here for contact information" href="personal.html"><i class="material-icons">menu</i></a></li>
+    <li class= "nav"> <a title= "click here for information about the site"> About</a></li>
+    <li class= "nav"> <a title= "click here to to contact the site author" href="contact-form.html"> Contact</a></li>
   </ul>
 
-  <div class= "content">
+  <div id= "content" class="content">
     <h1>My career</h1>
-    <p>
-      I'm currently a CS student at BU. So far, I've taken classes in computer
+    <p>I'm currently a CS student at BU. So far, I've taken classes in computer
       architecture, operating systems, data structures w/ C++, and algorithms. I
       think my goal for now is to do web development at my company. They have 
       many internal web applications, for which I've now been an end user for many
