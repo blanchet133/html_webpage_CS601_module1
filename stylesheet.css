@@ -136,3 +136,11 @@ textarea {
   width: 350px;
 }
 
+#workImg {
+  vertical-align: top;
+}
+
+#backpack {
+  float:inline-start;
+}
+
