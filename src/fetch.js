@@ -1,8 +1,9 @@
 window.onload = function () {
-  document.getElementById("button").addEventListener("click", fetchPromise);
+  const button = document.getElementById("button")
+  button.addEventListener("click", getDevSkills);
 }
 
-async function fetchPromise() {
+async function getDevSkills() {
   try {
     const response = await fetch("https://ptsv2.com/t/hz7b3-1658724590/post", {
       method: 'GET'
@@ -11,7 +12,6 @@ async function fetchPromise() {
         const tableData = await response.json();
         buildTable("skills", tableData);
         }
-        document.getElementById("p1").innerHTML = JSON.stringify(tableData);
       } catch(error) {
       console.log("!");
       }

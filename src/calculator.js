@@ -1,4 +1,4 @@
-function onLoad() {
+function launchCalc() {
   let continueProgramAns = true;
   showAlert();
   const name = getName();

@@ -24,6 +24,10 @@
       Please fill out the form below to contact me!
     </h1> 
     <!-- lacks funcionality on the back end -->
+    <p>This feature does function, but I don't have anywhere to put the information yet. Please feel free to play around.
+      It does show off client side form validation. Try typing something in wrong and press submit. If you can guess the 
+      password the information will go somewhere... just not to me!
+    </p>
     <form id="onlyForm" action="http://bucs601.com/submit.php" onsubmit="return validateForm()" method="POST">
       <br><label for="firstName">First Name: </label>
       <input type="text" id="firstName" name="firstName"><br>
@@ -48,7 +52,7 @@
       </div>
 
       <div id="checkBoxMenu">
-        <br>Please submit questions or comment for you facilitator: (optional)<br><br>
+        <br>Please submit questions or comment for you me: (optional)<br><br>
         <input type="checkbox" id="question" name="question" value="question" onclick= "return showOrHideCommentBox()"> 
         <label for="question">question</label><br>
         <input type="checkbox" id="comment" name="comment" value="comment" onclick= "return showOrHideCommentBox()"> 

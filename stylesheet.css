@@ -89,27 +89,27 @@ div.content {
   }
 }
 
-#work_history, #skills {
+table {
   border-collapse: collapse;
   text-align: left;
   overflow: auto;
 
 }
 
-#work_history, #skills th, #work_history, #skills td {
+th, td {
   padding: 8px;
   border: 1px solid #555;
   font-size: 0.8em;
 }
 
-#work_history, #skills th {
+th {
   background-color: #7da2a9;
   color: white;
 }
 
-#work_history, #skills tr:nth-child(even){background-color:#7da2a928;}
+tr:nth-child(even){background-color:#7da2a928;}
 
-#work_history, #skills tr:hover {background-color: #ddd;}
+tr:hover {background-color: #ddd;}
 
 video {
   position: relative;
