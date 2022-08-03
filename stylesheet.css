@@ -89,27 +89,27 @@ div.content {
   }
 }
 
-#work_history {
+#work_history, #skills {
   border-collapse: collapse;
   text-align: left;
   overflow: auto;
 
 }
 
-#work_history th, #work_history td {
+#work_history, #skills th, #work_history, #skills td {
   padding: 8px;
   border: 1px solid #555;
   font-size: 0.8em;
 }
 
-#work_history th {
+#work_history, #skills th {
   background-color: #7da2a9;
   color: white;
 }
 
-#work_history tr:nth-child(even){background-color:#7da2a928;}
+#work_history, #skills tr:nth-child(even){background-color:#7da2a928;}
 
-#work_history tr:hover {background-color: #ddd;}
+#work_history, #skills tr:hover {background-color: #ddd;}
 
 video {
   position: relative;

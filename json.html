@@ -6,8 +6,9 @@
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <script src="./src/fetch.js"></script>
-</head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
+</head>
 <body>
     <!-- not very maintainable. Can move to JS in the future? -->
   <ul class= "nav">
@@ -18,10 +19,17 @@
     <li class= "nav"> <a class= "active" title= "click here to pull some information from a remote server" href="json.html"> Web dev skills</a></li>
     <li class= "nav"> <a title= "click here to contact the site author" href="contact-form.html"> Contact</a></li>
   </ul>
-
-  <h1>My Educational Background</h1>
-  <button type="button" id="button">See my degrees!</button>
-  <div id="tableSpace"></div>
+  <div id= "content" class="content">
+    <h1>My Software Development Progress</h1>
+    <button type="button" id="button" title="this button will pull data from a server">See my progress!</button><br><br>
+    <table id="skills">
+      <tr>
+        <th>Topic</th>
+        <th>Level</th>
+      </tr>
+    </table>
+    <p id="skills"></p>
+  </div>
 </body>
 
 </html>
